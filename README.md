@@ -26,13 +26,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+    - The difference between .map, .reduce, and .filter is that .map creates anew array from the existing array while .filter will only work if the conditional statement is true the element within the array is pushed towards the output as for .reduce method in order to get an output value it would run a reduction value on each elements of the array down to just one value.
+    for example: .map determines what to cook while .filter determines the specialty or type of food and .reduce will eat that type of food bit by bit.
+
 2. Explain the difference between a callback and a higher order function.
+
+    - The higher order function takes another function as an argument and/or returns a function to its caller while the callback is a function that is passed to another function with the expectation that the other function will call it.
 
 3. Explain what a closure is.
 
+    - It is an inner function that has access to the outer function variables in a scope chain which has access to its own scope, outer function and global variables.
+
 4. Describe the four principles of the 'this' keyword.
+    1. Default/Window Binding
+        - In non-strict mode 'this' keyword will be by default in global object, but if its on strict mode the keyword will be undefined as it requires a variable.
+    2. Implicit Binding
+        - It points to the object with methods on which the function is invoked  
+    3. Explicit Binding 
+        - it tells the JavaScript engine to set it to point to a certain value using call, apply or bind.   - 
+    4. New Binding
+        - using the new keyword constructs a new object and this keyword point to the newly created object.
 
 5. Why do we need super() in an extended class?
+
+    - It refers to the parent class as it is used to call the constructor of the parent class and to access the parent's properties and methods.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
